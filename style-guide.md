@@ -142,8 +142,8 @@ A página deve conter:
 - Texto: --color-white
 - Tamanho da fonte: --font-size-text 
 - Padding:
-  - Vertical:  --spacing-md
-  - Horizontal:  --spacing-xl 
+- Vertical:  --spacing-md
+- Horizontal:  --spacing-xl 
 - Decoração do texto: Sem
 - Peso da fonte: 900
 - Borda tamanho: 5px

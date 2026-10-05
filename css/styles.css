@@ -10,3 +10,112 @@
 }
 
 /* ****************** NÃO APAGAR ****************** */
+
+:root {
+    --color-yellow: #F9F002;
+    --color-blue: #4ABED5;
+    --color-dark: #111111;
+    --color-white: #FFFFFF;
+
+    --spacing-md: 20px;
+    --spacing-lg: 50px;
+    --spacing-xl: 180px;
+
+    --font-size-title: 150px;
+    --font-size-subtitle: 50px;
+    --font-size-text: 25px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-dark);
+    font-family: rajdhani;
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-yellow);
+    font-family: cyberpunk;
+    font-size: var(--font-size-title);
+    margin-top: var(--spacing-md);
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-blue);
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-subtitle);
+}
+
+p {
+    text-align: center;
+    color: var(--color-yellow);
+    font-size: var(--font-size-text);
+    margin: var(--spacing-md);
+    font-weight: 700;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+#Banner {
+    border: 5px;
+    border-style: solid;
+    border-color: var(--color-white);
+
+}
+
+#linkbutton {
+    justify-content: center;
+
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+
+    background-color: var(--color-blue);
+    color: var(--color-white);
+
+    font-size: var(--font-size-text);
+
+    padding: 0;
+    padding-block: var(--spacing-md);
+    padding-inline: var(--spacing-xl);
+    font-weight: 900;
+    border: 5px;
+    border: solid;
+    border-color: var(--color-white);
+
+    &:hover {
+        background-color: var(--color-yellow);
+        color: var(--color-dark);
+    }
+}
+
+#centralizarLink {
+    text-align: center;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.style3img {
+    margin-inline: var(--spacing-md);
+    border: 5px;
+    border-style: solid;
+    border-color: var(--color-yellow);
+    filter: grayscale(1);
+    transition: 0.5s;
+
+    &:hover {
+        scale: 1.1;
+        filter: grayscale(0);
+    }
+}
